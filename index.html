@@ -11,18 +11,20 @@
 
 <body>
     <header>
+        <!--  Barra Superior del header  -->
         <section class="barraSuperior">
-            <ul>
-                <li>Grandes ofertas en comedores</li>
-                <li>
-                    Menu regional
-                    <ul>
-                        <li>Español</li>
-                        <li>$ARG</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="barraSuperiorTitulo">
+                <p>Grandes ofertas en comedores</p>
+            </div>
+            <div class="barraSuperiorConfig">
+                <ul class="barraSuperiorListaConfig">
+                    <li>Español</li>
+                    <li>$ARG</li>
+                </ul>
+            </div>
         </section>
+
+        <!-- Barra Inferior del header -->
         <section class="barraMenuPrincipal">
             <p class="logo-base">
                 <img src="./img/Cat.png" alt="gato">
@@ -50,74 +52,125 @@
     </header>
 
     <main>
+
+        <!------------- Slide principal ------------>
         <section class="slide">
-            <h2>¡Es un placer tenerte aquí!</h2>
-            <section class="banner">
-                <p>
-                    ¡Comederos en descuento!
-                </p>
-                <p class="botonComederos">
-                    COMEDEROS
-                </p>
-            </section>
+            <div class="banner">
+                <div>
+                    <h2>¡Es un placer tenerte aquí!</h2>
+                    <p>
+                        ¡Comederos en descuento!
+                    </p>
+                    <p class="botonComederos">
+                        COMEDEROS
+                    </p>
+                </div>
+
+            </div>
         </section>
 
+        <!------------- Seccion de producto ------------>
         <section class="productos">
-            <img src="./img/pawprint.png" alt="Patita de perro">
-            <h2 class="subtitulos">Productos destacados</h2>
-            <p>Comederos - Accesorios - Comida</p> <br><br>
+            <!-- Informacion general de productos -->
+            <div class="infoGeneral">
+                <img src="./img/pawprintYellow.png" alt="Patita de perro">
+                <h2 class="subtitulos">Productos destacados</h2>
+                <p>Comederos - Accesorios - Comida</p>
+            </div>
 
-            <p>
-                <img src="./img/churrasquito.png" alt="churrasquito para perros">
-            </p>
-            <p class="nombreJuguete">
-                Juguete Churrasquito 
-            </p>
-            <p class="precioJuguete">
-                $150 
-            </p>
+            <!-- Información detallada de productos -->
+            <div class="productosDescatados">
+                <article class="productoCard">
+                    <p>
+                        <img src="./img/churrasquito.png" alt="churrasquito para perros">
+                    </p>
+                    <p class="nombreJuguete">
+                        Juguete Churrasquito
+                    </p>
+                    <p class="precioJuguete">
+                        $150
+                    </p>
+                </article>
 
-            <p><img src="./img/comedero.png" alt="Comedero para perro"></p>
-            <p class="nombreJuguete">
-                Comedero para perro 
-            </p>
-            <p class="precioJuguete">
-                $250 
-            </p>
-            <p>
-                <img src="./img/Huesito.png" alt="Hueso para perros"> 
-            </p>
-            <p class="nombreJuguete">
-                Juguete Huesito 
-            </p>
-            <p class="precioJuguete">
-                $650 
-            </p>
+                <article class="productoCard">
+                    <p><img src="./img/comedero.png" alt="Comedero para perro"></p>
+                    <p class="nombreJuguete">
+                        Comedero para perro
+                    </p>
+                    <p class="precioJuguete">
+                        $250
+                    </p>
+                </article>
+
+                <article class="productoCard">
+                    <p>
+                        <img src="./img/Huesito.png" alt="Hueso para perros">
+                    </p>
+                    <p class="nombreJuguete">
+                        Juguete Huesito
+                    </p>
+                    <p class="precioJuguete">
+                        $650
+                    </p>
+                </article>
+            </div>
+
+            <!-- Formulario de contacto -->
+            <div class="formulario">
+                <h2>Contáctanos</h2>
+                <p class="datosCliente">Nombre y Apellido</p>
+                <p class="datosCliente">Ingresa tu correo electrónico</p>
+                <p class="datosCliente">Teléfono</p>
+                <p class="botonesForm">
+                    <span class="btnReset">Resetear</span>
+                    <span class="btnEnviar">Enviar</span>
+                </p>
+            </div>
+
         </section>
     </main>
     <footer>
+        <section class="suscripcion">
+            <div class="infoSuscripcion">
+                <img src="./img/enviar-correo.png" alt="correo enviado">
+                <p>Suscríbete para más Información</p>
+            </div>
+            <div class="formSuscripcion">
+                <p class="ingresoCorreo">Ingresa tu correo electrónico</p>
+                <p class="botonSuscripcion"> Suscribirme</p>
+            </div>
+        </section>
+
         <section class="infoFooter">
-            <p class="localidad">
-                <img src="./img/localidad.png" alt="localidad">
-                <h2 class="titulosFooter">Localidad</h2>
-                <p class="descripcionFooter">Calle - provincia</p>
-            </p>
-            <p class="telefono">
-                <img src="./img/localidad.png" alt="localidad">
-                <h2 class="titulosFooter">Telefono</h2>
-                <p class="descripcionFooter">Número de teléfono</p>
-            </p>
-            <p class="correo">
-                <img src="./img/localidad.png" alt="localidad">
-                <h2 class="titulosFooter">Correo Electrónico</h2>
-                <p class="descripcionFooter">Dirección de correo</p>
-            </p>
-            <p class="logo-base">
+            <div class="txtContacto">
+                <div class="infoBullet localidad">
+                    <img src="./img/localidad.png" alt="localidad">
+                    <div class="txtInfo">
+                        <h2 class="titulosFooter">Localidad</h2>
+                        <p class="descripcionFooter">Calle - provincia</p>
+                    </div>
+                </div>
+                <div class="infoBullet telefono">
+                    <img src="./img/telefono.png" alt="localidad">
+                    <div class="txtInfo">
+                        <h2 class="titulosFooter">Telefono</h2>
+                        <p class="descripcionFooter">Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="infoBullet correo">
+                    <img src="./img/correo.png" alt="localidad">
+                    <div class="txtInfo">
+                        <h2 class="titulosFooter">Correo Electrónico</h2>
+                        <p class="descripcionFooter">Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-base">
                 <img src="./img/Cat.png" alt="gato">
                 <span class="logo-first first-logo-footer">Front</span>
                 <span class="logo-first second-logo-footer">Cat&Dog</span>
                 <img src="./img/Dog.png" alt="perro">
-            </p>
+            </div>
         </section>
         <section class="copyright">
             <h3>Todos los derechos reservados Front End</h3>
