@@ -32,21 +32,28 @@
                 Cat&Dog
                 <img src="./img/Dog.png" alt="perro">
             </p>
-            <nav>
-                <ul class="nav-links">
-                    <li>
-                        <img src="./img/pawprint.png" alt=""><span>Categorias</span>
-                    </li>
-                    <li>
-                        <img src="./img/pawprint.png" alt=""><span>Pets</span>
-                    </li>
-                    <li>
-                        <img src="./img/pawprint.png" alt=""><span>Nosotros</span>
-                    </li>
-                    <li>
-                        <img src="./img/pawprint.png" alt=""><span>Contactanos</span>
-                    </li>
-                </ul>
+            <nav role="navigation">
+                <div class="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="menu nav-links">
+                        <a href="#">
+                            <li><img src="./img/pawprint.png" alt="">Categorias</li>
+                        </a>
+                        <a href="#">
+                            <li><img src="./img/pawprint.png" alt="">Pets</li>
+                        </a>
+                        <a href="#">
+                            <li><img src="./img/pawprint.png" alt="">Nosotros</li>
+                        </a>
+                        <a href="#">
+                            <li><img src="./img/pawprint.png" alt="">Contactanos</li>
+                        </a>
+                    </ul>
+                </div>
+                
             </nav>
         </section>
     </header>
@@ -74,16 +81,14 @@
             <!-- Informacion general de productos -->
             <div class="infoGeneral">
                 <img src="./img/pawprintYellow.png" alt="Patita de perro">
-                <h2 class="subtitulos">Productos destacados</h2>
+                <h2 class="subtitulos">Productos Destacados</h2>
                 <p>Comederos - Accesorios - Comida</p>
             </div>
 
             <!-- Información detallada de productos -->
             <div class="productosDescatados">
                 <article class="productoCard">
-                    <p>
-                        <img src="./img/churrasquito.png" alt="churrasquito para perros">
-                    </p>
+                    <img src="./img/churrasquito.png" alt="churrasquito para perros">
                     <p class="nombreJuguete">
                         Juguete Churrasquito
                     </p>
@@ -93,7 +98,7 @@
                 </article>
 
                 <article class="productoCard">
-                    <p><img src="./img/comedero.png" alt="Comedero para perro"></p>
+                    <img src="./img/comedero.png" alt="Comedero para perro">
                     <p class="nombreJuguete">
                         Comedero para perro
                     </p>
@@ -103,9 +108,7 @@
                 </article>
 
                 <article class="productoCard">
-                    <p>
-                        <img src="./img/Huesito.png" alt="Hueso para perros">
-                    </p>
+                    <img src="./img/Huesito.png" alt="Hueso para perros">
                     <p class="nombreJuguete">
                         Juguete Huesito
                     </p>
@@ -129,6 +132,8 @@
 
         </section>
     </main>
+
+
     <footer>
         <section class="suscripcion">
             <div class="infoSuscripcion">
